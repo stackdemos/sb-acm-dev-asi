@@ -1,0 +1,65 @@
+parameters:
+  - name: application.description
+    value: Java microservice with Spring Boot basic example deployed by ASI
+  - name: application.humanName
+    value: SB ACM Dev ASI
+  - name: application.ingress
+    value: sb-acm-dev-asi.app.dev1.demo10.superhub.io
+  - name: application.name
+    value: sb-acm-dev-asi
+  - name: application.namespace
+    value: applications
+  - name: application.path
+    value: /
+  - name: application.replicas
+    value: '1'
+  - name: author.email
+    value: demo10.support@agilestacks.io
+  - name: author.id
+    value: 00u24z8mcid8plLyF2p7
+  - name: author.name
+    value: Demo10 Support
+  - name: author.organization
+    value: DEMO10
+  - name: component.dex.okta.appId
+    value: 0oa54ly0bvceVMACV2p7
+  - name: component.dex.okta.clientId
+    value: 0oa54ly0bvceVMACV2p7
+  - name: component.dex.okta.issuer
+    value: 'https://agilestacks.okta.com'
+  - name: component.docker.auth.basic.username
+    value: admin
+  - name: component.docker.auth.host
+    value: ml-harbor.svc.dev1.demo10.superhub.io
+  - name: component.docker.registry.image
+    value: ml-harbor.svc.dev1.demo10.superhub.io/library/sb-acm-dev-asi
+  - name: component.docker.registry.kind
+    value: harbor
+  - name: component.docker.registry.url
+    value: ml-harbor.svc.dev1.demo10.superhub.io/library
+  - name: component.github.repository.name
+    value: sb-acm-dev-asi
+  - name: component.github.repository.organization
+    value: stackdemos
+outputs:
+  - name: application.description
+  - name: application.humanName
+  - name: application.ingress
+  - name: application.name
+  - name: application.namespace
+  - name: application.path
+  - name: application.replicas
+  - name: author.email
+  - name: author.id
+  - name: author.name
+  - name: author.organization
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.docker.auth.basic.username
+  - name: component.docker.auth.host
+  - name: component.docker.registry.image
+  - name: component.docker.registry.kind
+  - name: component.docker.registry.url
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
